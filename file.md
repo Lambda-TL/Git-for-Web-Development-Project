@@ -132,3 +132,31 @@
       - Push up changes periodically with comments on each commit
       - Once I'm done with the project, create a new pull request and add my TL as a reviewer
     
+    
+    ## Stretch Problems
+    1. What is the difference between an inline element and a block element?
+        - Inline elements don't force a new line while a block element typically cause a line break to occur
+    
+    2. What happens when an element is positioned absolutely? 
+        - It sits on its own layer separate from everything else 
+        - Other elements won't affect it's position
+    
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        - border-size: border-box
+        
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        - Block
+            - h1
+            - p
+            - h2
+       - Inline
+            - span
+            - img
+            - a (anchor)
+      - Inline-block
+            - button
+    
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+    - Set of rules that sets how CSS elements sizes are computed as you change the document 
+    - Places all elements into boxes and each box has their own margin, border, padding and content
+    - Make all elements respect the width you give them: box-sizing: border-box;
